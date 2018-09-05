@@ -1,13 +1,11 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+This class checks inputs for potential changes to the Configuration of the 
+Turning Machine and executes them.
  */
 package ituring;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.util.regex.Pattern;
 import javax.swing.JLabel;
 import javax.swing.JTextArea;
 
@@ -61,8 +59,6 @@ public class ChangeConfEvent implements ActionListener {
     }
 
     private boolean fieldsSane() {
-        
-        //Pattern num = Pattern.compile("[\\d]*");
         
         if (this.posInput.getText().matches("[\\d]*")) {
             System.out.println("input is proper number");

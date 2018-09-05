@@ -1,17 +1,18 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+Represents a Turning Machine... somewhat.
+
+To deal with the problem of infinite loops, the machine asks after a hundred
+steps, if user wants it to continue operating.
+
+Most programs this application is going to be used for, will have terminated 
+beforehand.
+
  */
 package ituring;
 
-import javax.swing.JEditorPane;
 import javax.swing.JTextArea;
 
-/**
- *
- * @author Michabook
- */
+
 public class TuringMachine {
 
     private Program program;

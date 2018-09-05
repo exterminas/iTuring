@@ -1,14 +1,14 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+represents a rule for the program of a Turing Machine. Rules consist of the 
+following:
+    Current State: the machine needs to be in this state for the rule to apply
+    Input: the machine needs to read this on the band to apply the rule
+    new state: the machine switches into this state when applying the rule
+    action: the machine performs this action when applying the rule
  */
 package ituring;
 
-/**
- *
- * @author Michabook
- */
+
 public class Rule {
     private String curState;
     private String input;
@@ -64,6 +64,7 @@ public class Rule {
         return false;
     }
     
+    @Override
     public String toString() {
         return "< " + curState + ", " + input + ", " + newState + ", " + action + ">";
     

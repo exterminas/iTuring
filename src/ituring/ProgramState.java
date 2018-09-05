@@ -1,14 +1,10 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+Represents the current state of the application. Keeps track of the information
+about the Turning Machine as entered by the user.
  */
 package ituring;
 
-/**
- *
- * @author Michael
- */
+
 class ProgramState {
     private Band band;
     private Configuration conf;

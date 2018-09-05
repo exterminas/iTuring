@@ -1,17 +1,16 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+
+This class represents the band of a Turing Machine. 
+Obviously it is not infinite in one direction. Instead, if the value of a field
+is requested, but which has not previously been set, the band will return a 
+default value of 0 or 1. 
+
  */
 package ituring;
 
-import java.util.ArrayList;
 import java.util.HashMap;
 
-/**
- *
- * @author Michabook
- */
+
 public class Band {
 
     private HashMap<Integer, String> list;

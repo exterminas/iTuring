@@ -1,19 +1,14 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+Implements the run button and allows it to execute and display the Turing
+Machine as defined by the user.
  */
 package ituring;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import javax.swing.JEditorPane;
 import javax.swing.JTextArea;
 
-/**
- *
- * @author Michael
- */
+
 public class RunButton implements ActionListener {
     private ProgramState state;
     private JTextArea output;

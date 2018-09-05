@@ -1,16 +1,11 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+Represents the program of a Turing Machine. A program is a list of Rules.
  */
 package ituring;
 
 import java.util.ArrayList;
 
-/**
- *
- * @author Michabook
- */
+
 public class Program {
 
     private ArrayList<Rule> list;
